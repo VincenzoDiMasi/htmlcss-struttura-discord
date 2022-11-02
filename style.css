@@ -10,10 +10,7 @@
 .conteiner {
     max-width: 1200px;
     margin: 0 auto;
-    
-
-
-}
+    }
 
 .flex-conteiner {
     display: flex;
@@ -25,7 +22,6 @@ header {
     background-color: rgb(174, 216, 230) ;
     min-width: 100%;
     padding: 10px 200px;
-    flex-shrink: 1;
 }
 
 #logobox,#linkbox,#loginbox {
@@ -102,6 +98,7 @@ header {
     min-width: 100%;
     flex-basis: 100%;
     padding: 30px 150px;
+    border-bottom: 1px white solid;
 }
 
 .pnk2-sqr {
