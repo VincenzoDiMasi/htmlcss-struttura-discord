@@ -121,10 +121,15 @@ header {
     border: 1px dashed black;
     background-color: rgb(127, 255, 211);
     justify-content: space-between;
+    align-items: center;
 }
 
 .buttonbox {
     background-color: rgb(255, 182, 193);
     border: 1px dashed black;
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+    
     
 }
