@@ -9,9 +9,38 @@
 .conteiner {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: rgb(144, 15, 15);
+
 
 }
 
 .flex-conteiner {
     display: flex;
+    min-height: 800px;
+
+}
+
+header {
+    background-color: rgb(174, 216, 230) ;
+    min-width: 100%;
+    padding: 10px 200px;
+}
+
+#logobox,#linkbox,#loginbox {
+    background-color: rgb(218, 165, 32);
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+#logobox,#loginbox {
+    width: 25%;
+}
+
+#linkbox {
+    width: 50%;
+    text-align: center;
+}
+
+#loginbox {
+    text-align: end;
 }
